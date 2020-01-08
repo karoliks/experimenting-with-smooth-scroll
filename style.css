@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background-color: lightblue;
+}
+
 /* Side navigation menu*/
 .sidebar {
   margin: 0;
@@ -10,9 +14,9 @@
   width: 200px;
   background-color: rgb(209, 209, 209);
   position: fixed;
-  height: 100%;
   overflow: auto;
   font-family: raleway;
+  justify-content: center;
 }
 
 /* Sidebar links */
@@ -53,7 +57,7 @@ div.content {
 }
 
 .introSection {
-  height: 100vh;
+  min-height: 100vh;
   background-color: lightblue;
   display: flex;
   justify-content: center;
@@ -64,7 +68,7 @@ div.content {
 .introSection h1 {
   font-family: "Courier New", Courier, monospace;
   color: white;
-  font-size: 5em;
+  font-size: 7em;
   margin: 20px;
 }
 
@@ -76,24 +80,70 @@ div.content {
 .svgSection {
   box-sizing: border-box;
   padding: 50px;
-  background-color: rgb(110, 207, 131);
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 20px;
+}
+
+.svgSection h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: lightblue;
+  font-size: 3em;
+  margin: auto;
+}
+
+.art {
+  /* background-color: lightcoral; */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .paintSection {
   box-sizing: border-box;
   padding: 50px;
-  background-color: thistle;
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 20px;
+}
+
+.paintSection h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: lightblue;
+  font-size: 3em;
+  margin: auto;
 }
 
 .lineSection {
   box-sizing: border-box;
   padding: 50px;
-  background-color: rgb(130, 113, 206);
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.lineSection h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 3em;
+  margin: auto;
 }
 
 .galla {
   height: 80vh;
+}
+
+img {
+  height: auto;
+  max-width: 400px;
 }
