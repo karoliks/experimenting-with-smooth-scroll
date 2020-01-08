@@ -12,3 +12,51 @@
   justify-content: space-around;
   align-items: center;
 }
+
+/* Side navigation menu*/
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(209, 209, 209);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: whitesmoke;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: rgb(224, 223, 223);
+}
+
+/* Page content. Margin-left corresponds to width of sidebar */
+div.content {
+  margin-left: 200px;
+}
+
+/* Make sidebar a topbar on screens that are less than 700px */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
