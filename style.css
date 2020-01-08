@@ -1,16 +1,6 @@
-.box1 {
-  height: 100vh;
-  background-color: lightblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box2 {
-  height: 100vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* Side navigation menu*/
@@ -22,6 +12,7 @@
   position: fixed;
   height: 100%;
   overflow: auto;
+  font-family: raleway;
 }
 
 /* Sidebar links */
@@ -29,6 +20,7 @@
   display: block;
   color: black;
   padding: 16px;
+  padding-left: 30px;
   text-decoration: none;
 }
 
@@ -59,4 +51,42 @@ div.content {
   div.content {
     margin-left: 0;
   }
+}
+
+.introSection {
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introSection h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.svgSection {
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: rgb(110, 207, 131);
+  height: 100vh;
+}
+
+.paintSection {
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: thistle;
+  height: 100vh;
+}
+
+.lineSection {
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: rgb(130, 113, 206);
+  height: 100vh;
+}
+
+.galla {
+  height: 80vh;
 }
