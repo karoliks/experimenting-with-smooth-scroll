@@ -36,21 +36,32 @@ var lineLink = document.querySelector(".lineLink");
 
 introLink.addEventListener("click", function() {
   smoothScroll(".introSection", 1000);
+  // Make the last clickes link unactive, and this active
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
 });
 
 svgLink.addEventListener("click", function() {
   smoothScroll(".svgSection", 1000);
+  // Make the last clickes link unactive, and this active
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
 });
 
 paintLink.addEventListener("click", function() {
   smoothScroll(".paintSection", 1000);
+  // Make the last clickes link unactive, and this active
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
 });
 
 lineLink.addEventListener("click", function() {
   smoothScroll(".lineSection", 1000);
+  // Make the last clickes link unactive, and this active
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
 });
-var startPosition = window.pageYOffset;
-var startTime = null;
-
-console.log(startPosition);
-console.log(distance);

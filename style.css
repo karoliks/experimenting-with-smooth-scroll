@@ -19,8 +19,7 @@
 .sidebar a {
   display: block;
   color: black;
-  padding: 16px;
-  padding-left: 30px;
+  padding: 16px 30px;
   text-decoration: none;
 }
 
@@ -59,10 +58,18 @@ div.content {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .introSection h1 {
   font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 5em;
+  margin: 20px;
+}
+
+.introSection h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
 }
 
