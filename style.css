@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: rgb(209, 209, 209);
+  /* background-color: rgb(209, 209, 209); */
   position: fixed;
   overflow: auto;
   font-family: raleway;
@@ -29,12 +29,12 @@ body {
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: whitesmoke;
+  background-color: rgb(225, 241, 247);
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: rgb(224, 223, 223);
+  background-color: rgb(200, 230, 240);
 }
 
 /* Page content. Margin-left corresponds to width of sidebar */
@@ -101,6 +101,7 @@ div.content {
   /* background-color: lightcoral; */
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .paintSection {
