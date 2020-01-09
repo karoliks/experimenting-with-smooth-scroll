@@ -78,23 +78,24 @@ div.content {
   color: white;
 }
 
-.svgSection {
+.whiteSection {
   box-sizing: border-box;
   padding: 50px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background-color: white;
-  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-start: ;
 }
 
-.svgSection h1 {
+.whiteSection h1 {
   font-family: "Courier New", Courier, monospace;
   color: lightblue;
   font-size: 3em;
-  margin: auto;
+  margin: 30px;
 }
 
 .art {
@@ -104,45 +105,23 @@ div.content {
   align-items: baseline;
 }
 
-.paintSection {
+.blueSection {
   box-sizing: border-box;
   padding: 50px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: white;
-  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.paintSection h1 {
-  font-family: "Courier New", Courier, monospace;
-  color: lightblue;
-  font-size: 3em;
-  margin: auto;
-}
-
-.lineSection {
-  box-sizing: border-box;
-  padding: 50px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-}
-
-.lineSection h1 {
+.blueSection h1 {
   font-family: "Courier New", Courier, monospace;
   color: white;
   font-size: 3em;
   margin: auto;
-}
-
-.galla {
-  height: 80vh;
+  margin-bottom: 50px;
 }
 
 img {
