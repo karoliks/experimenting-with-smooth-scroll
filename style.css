@@ -40,6 +40,7 @@ body {
 /* Page content. Margin-left corresponds to width of sidebar */
 div.content {
   margin-left: 200px;
+  margin-right: 200px;
 }
 
 /* Make sidebar a topbar on screens that are less than 700px */
@@ -144,6 +145,6 @@ div.content {
 }
 
 img {
-  height: auto;
   max-width: 400px;
+  max-height: auto;
 }
